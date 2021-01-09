@@ -12,6 +12,6 @@
 // answers[2] = prompt("Как вашыве имя?");
 
 // console.log(answers);
-const catrgoty = "tous";
+const catrgot = "tous";
 
-console.log(`http://somesa/${catrgoty}/5`);
+console.log(`http://somesa/${catrgot}/5`);
