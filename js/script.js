@@ -1,17 +1,21 @@
+const numberOfFilms = +prompt("Сколько фильмов вы уже смотрели?","");
 
-// alert('Hello');
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
 
-// const result = confirm("Are you here?");
+const lastFilm1 = prompt('Один из последних просмотренных фильмов?');
+const estimate1 = +prompt("На сколько оцените его?");
+const lastFilm2 = prompt('Один из последних просмотренных фильмов?');
+const estimate2 = +prompt("На сколько оцените его?");
 
-// console.log(result);
- 
-// const answers = [];
+personalMovieDB.movies[lastFilm1] = estimate1;
+personalMovieDB.movies[lastFilm2] = estimate2;
 
-// answers[0] = prompt("Как ваше имя?");
-// answers[1] = prompt("возраст?");
-// answers[2] = prompt("Как вашыве имя?");
+console.log(personalMovieDB);
 
-// console.log(answers);
-const catrgot = "tous";
 
-console.log(`http://somesa/${catrgot}/5`);
